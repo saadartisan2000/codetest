@@ -2,9 +2,8 @@
 
 namespace DTApi\Http\Controllers;
 
-use DTApi\Models\Job;
+use DTApi\Models\{Job,Distance};
 use DTApi\Http\Requests;
-use DTApi\Models\Distance;
 use Illuminate\Http\Request;
 use DTApi\Repository\BookingRepository;
 
